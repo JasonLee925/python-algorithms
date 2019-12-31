@@ -19,6 +19,9 @@ class PriorityQueue:
     def printAll(self):
         print(self.arr)
 
+    def getHighestPriority(self):
+      print(heapq.nsmallest(1, self.arr))
+
 
 queue_instance = PriorityQueue()
 
@@ -29,7 +32,9 @@ queue_instance.enQueue('c', 2)
 queue_instance.enQueue('d', 5)
 queue_instance.enQueue('e', 4)
 queue_instance.printAll()
+queue_instance.getHighestPriority()
 
 queue_instance.deQueue()
 queue_instance.deQueue()
 queue_instance.printAll()
+queue_instance.getHighestPriority()
