@@ -4,6 +4,8 @@ This project contains some practices of algorithms and data structures in Python
 * **Queue**
     * [Queue](data-structures/queue/queue.py)   
     * [Priority Queue](data-structures/queue/priorityQueue.py)
+* **Stack**
+    * [Stack](data-structures/stack/stack.py)   
 
 ### Algorithms
 * **Math**
