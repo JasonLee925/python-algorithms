@@ -1,5 +1,5 @@
 # Python Algorithms and Data Structures
-This project contains some practice of algorithms and data structures in Python.
+This project contains some practices of algorithms and data structures in Python.
 ### Data Structures
 
 ### Algorithms
