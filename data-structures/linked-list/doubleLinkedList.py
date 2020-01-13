@@ -67,6 +67,24 @@ class DoubleLinkedList:
             current_node = current_node.next
         return count
 
+    def reverse(self):
+        current_node = self.head
+        prev_node = None
+        next_node = None
+        while current_node is not None:
+            next_node = current_node.next
+            if prev_node is not None:
+                current_node.prev = next_node
+                current_node.next = prev_node
+            else:
+                self.tail = current_node
+                self.tail.next = None
+            prev_node = current_node
+            current_node = next_node
+        self.head = prev_node
+        self.head.prev = None
+        return
+
 
 node1 = ListNode(10)
 node2 = ListNode(8.2)
@@ -86,4 +104,9 @@ print('-----------------')
 
 mylist.remove_item(3)
 mylist.remove_item(1)
+mylist.print_list()
+
+print('-----------------')
+
+mylist.reverse()
 mylist.print_list()
