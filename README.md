@@ -6,6 +6,8 @@ This project contains some practices of algorithms and data structures in Python
     * [Priority Queue](data-structures/queue/priorityQueue.py)
 * **Stack**
     * [Stack](data-structures/stack/stack.py)   
+* **Linked List**
+    * [SingleLinkedList](data-structures/linked-list/singleLinkedList.py)   
 
 ### Algorithms
 * **Math**
