@@ -2,13 +2,15 @@
 This project contains some practices of algorithms and data structures in Python.
 ### Data Structures
 * **Queue**
-    * [Queue](data-structures/queue/queue.py)   
+    * [Queue](data-structures/queue/queue.py)
     * [Priority Queue](data-structures/queue/priorityQueue.py)
 * **Stack**
-    * [Stack](data-structures/stack/stack.py)   
+    * [Stack](data-structures/stack/stack.py)
 * **Linked List**
-    * [SingleLinkedList](data-structures/linked-list/singleLinkedList.py)   
-    * [DoubleLinkedList](data-structures/linked-list/doubleLinkedList.py)   
+    * [Single Linked List](data-structures/linked-list/singleLinkedList.py)
+    * [Double Linked List](data-structures/linked-list/doubleLinkedList.py)
+* **Tree**
+    * [Binary Tree](data-structures/tree/binaryTree.py)
 
 ### Algorithms
 * **Math**
