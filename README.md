@@ -11,6 +11,7 @@ This project contains some practices of algorithms and data structures in Python
     * [Double Linked List](data-structures/linked-list/doubleLinkedList.py)
 * **Tree**
     * [Binary Tree](data-structures/tree/binaryTree.py)
+    * [Binary Search Tree](data-structures/tree/binarySearchTree.py)
 
 ### Algorithms
 * **Math**
