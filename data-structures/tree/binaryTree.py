@@ -1,4 +1,4 @@
-class Node:
+class TreeNode:
     def __init__(self, data):
         self.data = data
         self.left = None
@@ -8,12 +8,12 @@ class Node:
         if self.data:
             if data < self.data:
                 if self.left is None:
-                    self.left = Node(data)
+                    self.left = TreeNode(data)
                 else:
                     self.left.insert(data)
             elif data > self.data:
                 if self.right is None:
-                    self.right = Node(data)
+                    self.right = TreeNode(data)
                 else:
                     self.right.insert(data)
             else:
@@ -70,7 +70,7 @@ class Node:
         return max(self.leftHeight(root), self.rightHeight(root))
 
 
-root = Node(27)
+root = TreeNode(27)
 root.insert(14)
 root.insert(35)
 root.insert(10)
