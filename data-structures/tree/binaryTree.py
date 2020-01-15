@@ -54,6 +54,21 @@ class Node:
             res.append(root.data)
         return res
 
+    def leftHeight(self, root):
+        if root:
+            return 1 + self.leftHeight(root.left)
+        else:
+            return 0
+
+    def rightHeight(self, root):
+        if root:
+            return 1 + self.rightHeight(root.right)
+        else:
+            return 0
+
+    def height(self, root):
+        return max(self.leftHeight(root), self.rightHeight(root))
+
 
 root = Node(27)
 root.insert(14)
@@ -69,3 +84,6 @@ print('Pre-Order '),
 print(root.preorderTraversal(root))
 print('Post-Order'),
 print(root.postorderTraversal(root))
+
+print('Height '),
+print(root.height(root))
