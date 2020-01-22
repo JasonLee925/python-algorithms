@@ -12,6 +12,8 @@ This project contains some practices of algorithms and data structures in Python
 * **Tree**
     * [Binary Tree](data-structures/tree/binaryTree.py)
     * [Binary Search Tree](data-structures/tree/binarySearchTree.py)
+* **Graph**
+    * [Graph](data-structures/graph/graph.py)
 
 ### Algorithms
 * **Math**
