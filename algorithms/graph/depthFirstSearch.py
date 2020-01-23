@@ -8,6 +8,9 @@ class Graph:
     def edges(self):
         return self.find_edges()
 
+    def print_graph(self):
+        print(self.graph_dict)
+
     def find_edges(self):
         edges = []
         for vertex in self.graph_dict:
@@ -27,6 +30,10 @@ class Graph:
             self.graph_dict[v1].append(v2)
         else:
             self.graph_dict[v1] = v2
+        if v2 in self.graph_dict:
+            self.graph_dict[v2].append(v1)
+        else:
+            self.graph_dict[v2] = v1
 
     def getNeighbor(self, vertex):
         if vertex not in self.graph_dict:
