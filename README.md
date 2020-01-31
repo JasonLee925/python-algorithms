@@ -16,6 +16,8 @@ This project contains some practices of algorithms and data structures in Python
     * [Graph](data-structures/graph/graph.py)
 * **Heap**
     * [Max Binary Heap](data-structures/heap/maxBinaryHeap.py)
+* **Hash Table**
+    * [Hash Table](data-structures/hash-table/hashTable.py)
 
 ### Algorithms
 * **Math**
