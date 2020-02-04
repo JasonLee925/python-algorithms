@@ -27,6 +27,7 @@ This project contains some practices of algorithms and data structures in Python
     * [Bubble Sort](algorithms/sorting/bubbleSort.py)
     * [Selection Sort](algorithms/sorting/selectionSort.py)
     * [Insertion Sort](algorithms/sorting/insertionSort.py)
+    * [Quick Sort](algorithms/sorting/quickSort.py)
 * **Graph**
     * [Depth First Search](algorithms/graph/depthFirstSearch.py)
     * [Breadth First Search](algorithms/graph/breadthFirstSearch.py)
