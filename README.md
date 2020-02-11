@@ -31,6 +31,8 @@ This project contains some practices of algorithms and data structures in Python
     * [Heap Sort](algorithms/sorting/heapSort.py)
     * [Counting Sort](algorithms/sorting/countingSort.py)
     * [Radix Sort](algorithms/sorting/radixSort.py)
+* **Search**
+    * [Linear Search](algorithms/search/linearSearch.py)
 * **Graph**
     * [Depth First Search](algorithms/graph/depthFirstSearch.py)
     * [Breadth First Search](algorithms/graph/breadthFirstSearch.py)
