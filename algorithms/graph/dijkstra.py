@@ -93,3 +93,18 @@ shortes_path = g.dijkstra('a', 'e')
 
 print 'path => ', shortes_path[1] 
 print 'distance =>', shortes_path[0] 
+
+# Dijkstra Algorithm for Negative Weights
+
+g1 = Graph()
+for node in ['a', 'b', 's']:
+    g1.add_node(node)
+
+g1.add_edge('a', 'b', -2)
+g1.add_edge('a', 's', 3)
+g1.add_edge('s', 'b', 4)
+
+shortes_path1 = g1.dijkstra('s', 'a')
+
+print 'path => ', shortes_path1[1] 
+print 'distance =>', shortes_path1[0] 
