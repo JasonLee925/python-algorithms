@@ -37,4 +37,4 @@ This project contains some practices of algorithms and data structures in Python
 * **Graph**
     * [Depth First Search](algorithms/graph/depthFirstSearch.py)
     * [Breadth First Search](algorithms/graph/breadthFirstSearch.py)
-    * [Dijkstra](algorithms/graph/dijkstra.py) - shortest path problem
+    * [Dijkstra's Algorithm](algorithms/graph/dijkstra.py) - shortest path problem
