@@ -42,3 +42,5 @@ This project contains some practices of algorithms and data structures in Python
     * [Dijkstra's Algorithm](algorithms/graph/dijkstra.py)
     * [Bellman-Ford Algorithm](algorithms/graph/bellmanFord.py)
     * [Topological Sorting](algorithms/graph/topologicalSort.py)
+* **Uncategorized**
+    * [Hanoi Tower](algorithms/uncategorized/hanoiTower.py)
