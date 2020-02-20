@@ -19,12 +19,11 @@ class Graph:
         visited_edge = []
         edges = self.edge
         for v in self.vertex:
+            result[v] = [0, []]
             if v != start_vertex:
                 data[v] = None
-                result[v] = [0, []]
             else:
                 data[v] = 0
-                result[v] = [0, []]
 
         current_node = start_vertex
         current_path = []
@@ -106,5 +105,5 @@ g1.add_edge('s', 'b', 4)
 
 shortes_path1 = g1.dijkstra('s', 'a')
 
-print 'path => ', shortes_path1[1] 
-print 'distance =>', shortes_path1[0] 
+print 'path => ', shortes_path1[1]     # expect = ['s', 'b', 'a']  output = ['s', 'a']
+print 'distance =>', shortes_path1[0]  # expect = 2   output = 3
