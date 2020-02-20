@@ -38,5 +38,6 @@ This project contains some practices of algorithms and data structures in Python
     * [Depth-First Search](algorithms/graph/depthFirstSearch.py) (DFS)
     * [Breadth-First Search](algorithms/graph/breadthFirstSearch.py) (BFS)
     * [Kruskal's Algorithm](algorithms/graph/kruskal.py)
+    * [Prim's Algorithm](algorithms/graph/prim.py)
     * [Dijkstra's Algorithm](algorithms/graph/dijkstra.py)
     * [Bellman-Ford Algorithm](algorithms/graph/bellmanFord.py)
