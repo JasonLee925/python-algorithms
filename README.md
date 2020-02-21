@@ -45,3 +45,4 @@ This project contains some practices of algorithms and data structures in Python
     * [Topological Sorting](algorithms/graph/topologicalSort.py)
 * **Uncategorized**
     * [Hanoi Tower](algorithms/uncategorized/hanoiTower.py)
+    * [Coin Change](algorithms/uncategorized/coinChange.py)
