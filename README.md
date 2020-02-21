@@ -22,6 +22,7 @@ This project contains some practices of algorithms and data structures in Python
 ### Algorithms
 * **Math**
     * [Karatsuba Mutiplication](algorithms/math/karatsuba.py)
+    * [Fibonacci Number](algorithms/math/fibonacci.py)
 * **Sorting**
     * [Merge Sort](algorithms/sorting/mergeSort.py)
     * [Bubble Sort](algorithms/sorting/bubbleSort.py)
