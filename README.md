@@ -46,3 +46,4 @@ This project contains some practices of algorithms and data structures in Python
 * **Uncategorized**
     * [Hanoi Tower](algorithms/uncategorized/hanoiTower.py)
     * [Coin Change](algorithms/uncategorized/coinChange.py)
+    * [0/1 Knapsack Problem](algorithms/uncategorized/knapsack.py)
